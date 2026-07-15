@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900 antialiased;
+}
+
+.container-wrap {
+  @apply mx-auto max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply text-2xl sm:text-3xl font-bold tracking-tight;
+}
+
+.section-subtitle {
+  @apply mt-2 text-slate-600 max-w-2xl;
+}
