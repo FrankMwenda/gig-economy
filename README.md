@@ -1,45 +1,44 @@
-# Gig Economy Portfolio Template
+# Gig Economy Portfolio Website
 
-A reusable React + TypeScript + TailwindCSS website template for local service businesses in the gig economy.
+A modern, dark-themed portfolio website for showcasing the Gig Economy platform to clients.
 
-Default preset is **Lawn Mower / Lawn Care**, with built-in switches for:
+## Tech Stack
 
-- Plumber
-- Nail Salon
-- Cleaning Service
-- Electrician
-- Handyman
+- Next.js 14 + TypeScript
+- Tailwind CSS
+- Framer Motion animations
+- Lucide React icons
 
-## Features
+## Included Sections
 
-- Industry preset switcher (changes copy, services, and accent colors)
-- Modern one-page portfolio layout
-- Sections: Hero, Services, Pricing, Gallery, Testimonials, FAQ, Contact
-- Mobile responsive design
-- Reusable data-driven structure
+- Responsive navbar with mobile menu
+- Hero section with CTA buttons
+- Services section
+- Portfolio/case studies section
+- Contact section with interactive form and contact details
+- Footer with quick links
 
-## Local demo (for showing customers)
+## Run Locally
 
 ```bash
 npm install
 npm run dev
 ```
 
-Then open the localhost link shown in terminal (usually `http://localhost:5173`).
+Open `http://localhost:3000`.
 
-## Build
+## Build for Production
 
 ```bash
 npm run build
-npm run preview
+npm run start
 ```
 
-## Customize
+## Deploy to Vercel
 
-Edit `src/data/presets.ts` to update business names, services, pricing, colors, testimonials, and FAQs.
+1. Push this repository to GitHub.
+2. Import the project in [Vercel](https://vercel.com/new).
+3. Keep default Next.js build settings.
+4. Deploy.
 
-## Deploy options
-
-- Vercel
-- Netlify
-- GitHub Pages (with extra config)
+The site is optimized for fast deployment and client-ready presentation.
